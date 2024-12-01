@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Video Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <!-- Video URL Input Section -->
+        <div class="url-input-container">
+            <input 
+                type="text" 
+                id="video-url" 
+                placeholder="Enter YouTube video URL..." 
+                aria-label="Video URL Input" 
+            />
+            <button id="load-video-btn" aria-label="Load Video Button">
+                Load Video
+            </button>
+        </div>
+
+        <!-- Video Player Section -->
+        <div id="video-player"></div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>

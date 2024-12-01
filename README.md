@@ -1,1 +1,2 @@
 # youtube-video-player
+#### A simple web application that allows users to load and play YouTube videos by entering a URL. Features include seamless YouTube integration using the IFrame API, responsive design, and a modern, polished interface. Perfect for experimenting with YouTube API and building interactive video experiences.
